@@ -89,7 +89,7 @@ p{
     
     .container{
         margin-top: 50px;
-        width: fit-content;
+        width: 100%;
     }
     .all-box{
         display: flex;
