@@ -89,13 +89,22 @@ p{
     
     .container{
         margin-top: 50px;
-        width: 100%;
+        margin-left: 10px;
+        width: 90%;
     }
+    .t-head{
+        font-size: 22px;
+    }
+    .t1-head{
+        font-size: 12px;
+    }
+
     .all-box{
         display: flex;
         flex-direction: column;
-        justify-content: center; 
-        align-items: center;
+        align-content: center;
+        justify-content: center;
+        margin-left: 20px;
         width: 90%;
         
     }
