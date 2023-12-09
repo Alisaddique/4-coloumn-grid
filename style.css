@@ -92,6 +92,10 @@ p{
         margin-left: 10px;
         width: 90%;
     }
+ 
+.all img{
+     margin: 50px 0px 0px 200px; 
+}
     .t-head{
         font-size: 22px;
     }
@@ -114,7 +118,7 @@ p{
         width: fit-content;
     }
     .onebox{
-        width: 30vh;
+        width: 40vh;
     }
     .twobox{
         margin-top: 25px;
