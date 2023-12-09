@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,200&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    background: beige;
+    font-size: 15px;
+}
+
+.t-head{
+    font-weight:100;
+}
+p{
+    color: gray;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    text-align: center;
+    width: 40%;
+    
+}
+.t-head{
+    font-size: 29px;
+}
+
+.all-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 80px 20px 80px;
+}
+.onebox{        
+        background: white;
+        border-radius: 5px;
+        padding: 20px;
+        width: 60vh;
+        border-top: 5px solid hsl(180, 62%, 55%);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.all img{
+     margin: 50px 0px 0px 250px; 
+}
+.combo{
+    display: flex;
+    flex-direction: column;
+}
+
+.twobox{
+        background: white;
+        border-radius: 5px;
+        padding: 20px;
+        width: 60vh ;
+        border-top: 5px solid hsl(0, 78%, 62%);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.threebox{
+    margin-top: 30px;
+    background: white;
+    border-radius: 5px;
+    padding: 20px;
+    width:60vh ;
+    border-top: 5px solid hsl(34, 97%, 64%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.fourbox{        
+    background: white;
+    border-radius: 5px;
+    padding: 20px;
+    width: 60vh;
+    border-top: 5px solid hsl(212, 86%, 64%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+}
+
+@media (max-width:375px) {
+    
+    .container{
+        margin-top: 50px;
+        width: fit-content;
+    }
+    .all-box{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .combo{
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+    }
+    .onebox{
+        width: fit-content;
+    }
+    .twobox{
+        margin-top: 25px;
+        width: fit-content;
+    }
+    .threebox{
+        width: fit-content;
+    }
+    .fourbox{
+        margin-top: 25px;
+        width: fit-content;
+    }
+}
